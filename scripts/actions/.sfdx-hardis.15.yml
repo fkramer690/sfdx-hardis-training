@@ -1,0 +1,8 @@
+commandsPostDeploy:
+  - id: 63aa8c3a-bacd-4552-9125-e97581e26d5b
+    label: Load handover checklist reference data
+    type: data
+    parameters:
+      sfdmuProject: HeliosHandoverRefData
+    command: ""
+    context: process-deployment-only
